@@ -10,9 +10,7 @@ public class TwoNumEq{
       System.out.print("Enter second number : ");
       int b = sc.nextInt();
 
-      String result = (a==b)? "Both are equal" : "Both are not equal";
-
-      System.out.println(result);
+      System.out.println(a == b);
 
       sc.close();
     }
